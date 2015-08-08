@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4CAD4E1B74292700A1CAD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CAD4D1B74292700A1CAD5 /* AppDelegate.swift */; };
+		5B4CAD531B74292700A1CAD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CAD511B74292700A1CAD5 /* Main.storyboard */; };
+		5B4CAD551B74292700A1CAD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CAD541B74292700A1CAD5 /* Images.xcassets */; };
+		5B4CAD581B74292700A1CAD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CAD561B74292700A1CAD5 /* LaunchScreen.xib */; };
+		5B4CAD641B74292700A1CAD5 /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CAD631B74292700A1CAD5 /* RetroCalculatorTests.swift */; };
+		5B4CAD721B74324B00A1CAD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CAD711B74324B00A1CAD5 /* ViewController.swift */; };
+		5B4CAD741B7433C300A1CAD5 /* Calculator.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CAD731B7433C300A1CAD5 /* Calculator.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4CAD5E1B74292700A1CAD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4CAD401B74292700A1CAD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4CAD471B74292700A1CAD5;
+			remoteInfo = RetroCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4CAD481B74292700A1CAD5 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4CAD4C1B74292700A1CAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4CAD4D1B74292700A1CAD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B4CAD521B74292700A1CAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4CAD541B74292700A1CAD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B4CAD571B74292700A1CAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B4CAD5D1B74292700A1CAD5 /* RetroCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4CAD621B74292700A1CAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4CAD631B74292700A1CAD5 /* RetroCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorTests.swift; sourceTree = "<group>"; };
+		5B4CAD711B74324B00A1CAD5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B4CAD731B7433C300A1CAD5 /* Calculator.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calculator.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4CAD451B74292700A1CAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CAD5A1B74292700A1CAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4CAD3F1B74292700A1CAD5 = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD4A1B74292700A1CAD5 /* RetroCalculator */,
+				5B4CAD601B74292700A1CAD5 /* RetroCalculatorTests */,
+				5B4CAD491B74292700A1CAD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4CAD491B74292700A1CAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD481B74292700A1CAD5 /* RetroCalculator.app */,
+				5B4CAD5D1B74292700A1CAD5 /* RetroCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4CAD4A1B74292700A1CAD5 /* RetroCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD4D1B74292700A1CAD5 /* AppDelegate.swift */,
+				5B4CAD711B74324B00A1CAD5 /* ViewController.swift */,
+				5B4CAD511B74292700A1CAD5 /* Main.storyboard */,
+				5B4CAD541B74292700A1CAD5 /* Images.xcassets */,
+				5B4CAD561B74292700A1CAD5 /* LaunchScreen.xib */,
+				5B4CAD4B1B74292700A1CAD5 /* Supporting Files */,
+			);
+			path = RetroCalculator;
+			sourceTree = "<group>";
+		};
+		5B4CAD4B1B74292700A1CAD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD731B7433C300A1CAD5 /* Calculator.ttf */,
+				5B4CAD4C1B74292700A1CAD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B4CAD601B74292700A1CAD5 /* RetroCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD631B74292700A1CAD5 /* RetroCalculatorTests.swift */,
+				5B4CAD611B74292700A1CAD5 /* Supporting Files */,
+			);
+			path = RetroCalculatorTests;
+			sourceTree = "<group>";
+		};
+		5B4CAD611B74292700A1CAD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CAD621B74292700A1CAD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4CAD471B74292700A1CAD5 /* RetroCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4CAD671B74292700A1CAD5 /* Build configuration list for PBXNativeTarget "RetroCalculator" */;
+			buildPhases = (
+				5B4CAD441B74292700A1CAD5 /* Sources */,
+				5B4CAD451B74292700A1CAD5 /* Frameworks */,
+				5B4CAD461B74292700A1CAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroCalculator;
+			productName = RetroCalculator;
+			productReference = 5B4CAD481B74292700A1CAD5 /* RetroCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4CAD5C1B74292700A1CAD5 /* RetroCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4CAD6A1B74292700A1CAD5 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */;
+			buildPhases = (
+				5B4CAD591B74292700A1CAD5 /* Sources */,
+				5B4CAD5A1B74292700A1CAD5 /* Frameworks */,
+				5B4CAD5B1B74292700A1CAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4CAD5F1B74292700A1CAD5 /* PBXTargetDependency */,
+			);
+			name = RetroCalculatorTests;
+			productName = RetroCalculatorTests;
+			productReference = 5B4CAD5D1B74292700A1CAD5 /* RetroCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4CAD401B74292700A1CAD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Reed Carson";
+				TargetAttributes = {
+					5B4CAD471B74292700A1CAD5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5B4CAD5C1B74292700A1CAD5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5B4CAD471B74292700A1CAD5;
+					};
+				};
+			};
+			buildConfigurationList = 5B4CAD431B74292700A1CAD5 /* Build configuration list for PBXProject "RetroCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4CAD3F1B74292700A1CAD5;
+			productRefGroup = 5B4CAD491B74292700A1CAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4CAD471B74292700A1CAD5 /* RetroCalculator */,
+				5B4CAD5C1B74292700A1CAD5 /* RetroCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4CAD461B74292700A1CAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CAD741B7433C300A1CAD5 /* Calculator.ttf in Resources */,
+				5B4CAD531B74292700A1CAD5 /* Main.storyboard in Resources */,
+				5B4CAD581B74292700A1CAD5 /* LaunchScreen.xib in Resources */,
+				5B4CAD551B74292700A1CAD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CAD5B1B74292700A1CAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4CAD441B74292700A1CAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CAD721B74324B00A1CAD5 /* ViewController.swift in Sources */,
+				5B4CAD4E1B74292700A1CAD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CAD591B74292700A1CAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CAD641B74292700A1CAD5 /* RetroCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4CAD5F1B74292700A1CAD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4CAD471B74292700A1CAD5 /* RetroCalculator */;
+			targetProxy = 5B4CAD5E1B74292700A1CAD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4CAD511B74292700A1CAD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4CAD521B74292700A1CAD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B4CAD561B74292700A1CAD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4CAD571B74292700A1CAD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4CAD651B74292700A1CAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B4CAD661B74292700A1CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4CAD681B74292700A1CAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B4CAD691B74292700A1CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B4CAD6B1B74292700A1CAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetroCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroCalculator.app/RetroCalculator";
+			};
+			name = Debug;
+		};
+		5B4CAD6C1B74292700A1CAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetroCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroCalculator.app/RetroCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4CAD431B74292700A1CAD5 /* Build configuration list for PBXProject "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CAD651B74292700A1CAD5 /* Debug */,
+				5B4CAD661B74292700A1CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4CAD671B74292700A1CAD5 /* Build configuration list for PBXNativeTarget "RetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CAD681B74292700A1CAD5 /* Debug */,
+				5B4CAD691B74292700A1CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B4CAD6A1B74292700A1CAD5 /* Build configuration list for PBXNativeTarget "RetroCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CAD6B1B74292700A1CAD5 /* Debug */,
+				5B4CAD6C1B74292700A1CAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4CAD401B74292700A1CAD5 /* Project object */;
+}
