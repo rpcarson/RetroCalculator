@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         secondNumber = ""
         currentOperation = ""
         calculatedNumber = ""
+        currentNumber = ""
         
     }
     
@@ -55,11 +56,9 @@ class ViewController: UIViewController {
         
         if currentNumber.isEmpty || calculatedNumber != "" { return }
         
-        if currentNumber == firstNumber {
+        if currentOperation.isEmpty {
             
-            if currentOperation != "" || firstNumber == "" { return }
-            
-//            if firstNumber == "" { return }
+            if firstNumber == "" { return }
             
             currentNumber = dropLast(currentNumber)
             
@@ -68,35 +67,24 @@ class ViewController: UIViewController {
                 currentNumber = ""
             }
             
-            if currentOperation.isEmpty {
-                
             firstNumber = currentNumber
                 
-                Label.text = firstNumber
-                
-            } else {
-                
-                Label.text = "\(firstNumber) \(currentOperation)"
-                
-            }
-           
+            Label.text = firstNumber
             
-//            firstNumber = currentNumber
-
+        } else  {
             
-        } else {
-            
-            if secondNumber == "" {return}
+            if secondNumber == "" { return }
             
             currentNumber = dropLast(currentNumber)
-            
+
             if currentNumber == "-" {
                 
                 currentNumber = ""
+                
             }
             
             secondNumber = currentNumber
-            
+        
             Label.text = "\(firstNumber) \(currentOperation) \(secondNumber)"
             
         }
@@ -175,8 +163,7 @@ class ViewController: UIViewController {
     
     @IBAction func ButtonPress(sender: UIButton) {
         
-        
-        println(currentNum1)
+        println(" current number is \(currentNumber)")
         
         let number = sender.currentTitle!
         
@@ -193,10 +180,17 @@ class ViewController: UIViewController {
         
         if currentOperation.isEmpty {
             
+            
+            if sender.currentTitle == "." && (currentNumber == "") {
+                
+                firstNumber = "0"
+                
+            }
+            
             firstNumber += number
             
             currentNumber = firstNumber
-            
+
             Label.text = currentNumber
             
         }
@@ -205,11 +199,17 @@ class ViewController: UIViewController {
             
         {
             
+            if sender.currentTitle == "." && (currentNumber == "") {
+                
+                secondNumber = "0"
+                
+            }
+            
             secondNumber += number
             
-            Label.text = "\(firstNumber) \(currentOperation) \(secondNumber)"
-            
             currentNumber = secondNumber
+            
+            Label.text = "\(firstNumber) \(currentOperation) \(secondNumber)"
             
             println(currentNumber)
             
@@ -218,22 +218,22 @@ class ViewController: UIViewController {
         
         println("second number = \(secondNumber)")
         println("first number = \(firstNumber)")
+        println("current = \(currentNumber)")
         
         
     }
     
     @IBAction func Operation(sender: UIButton) {
+
         
-        if firstNumber == "." {
+        if firstNumber.hasSuffix(".") {
             
-            firstNumber = "0.0"
+            firstNumber = firstNumber + "0"
             
         }
         
-        if secondNumber == "." {
-            
-            secondNumber = "0.0"
-        }
+        
+        currentNumber = ""
         
         let number1 = numberFormatter.numberFromString("\(firstNumber)")
         let number2 = numberFormatter.numberFromString("\(secondNumber)")
@@ -307,10 +307,10 @@ class ViewController: UIViewController {
                 
             case "+":
                 
-                if calculatedNumber != "" {
-                    
-                    firstNumber = calculatedNumber
-                }
+//                if calculatedNumber != "" {
+//                    
+//                    firstNumber = calculatedNumber
+//                }
                 
                 if secondNumber != "" {
                     
