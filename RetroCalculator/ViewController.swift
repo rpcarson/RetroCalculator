@@ -60,7 +60,7 @@ class ViewController: UIViewController {
             
             if firstNumber == "" { return }
             
-            currentNumber = dropLast(currentNumber)
+            currentNumber = String(currentNumber.characters.dropLast())
             
             if currentNumber == "-" {
                 
@@ -75,7 +75,7 @@ class ViewController: UIViewController {
             
             if secondNumber == "" { return }
             
-            currentNumber = dropLast(currentNumber)
+            currentNumber = String(currentNumber.characters.dropLast())
 
             if currentNumber == "-" {
                 
@@ -112,13 +112,13 @@ class ViewController: UIViewController {
                     
                     firstNumber = "\(formattedValue)"
                     
-                    println(numberFloat)
+                    print(numberFloat)
                     
                 } else {
                     
                     firstNumber = "\(numberFloat)"
                     
-                    println(numberFloat)
+                    print(numberFloat)
                     
                 }
                 
@@ -163,7 +163,7 @@ class ViewController: UIViewController {
     
     @IBAction func ButtonPress(sender: UIButton) {
         
-        println(" current number is \(currentNumber)")
+        print(" current number is \(currentNumber)")
         
         let number = sender.currentTitle!
         
@@ -211,14 +211,14 @@ class ViewController: UIViewController {
             
             Label.text = "\(firstNumber) \(currentOperation) \(secondNumber)"
             
-            println(currentNumber)
+            print(currentNumber)
             
         }
         
         
-        println("second number = \(secondNumber)")
-        println("first number = \(firstNumber)")
-        println("current = \(currentNumber)")
+        print("second number = \(secondNumber)")
+        print("first number = \(firstNumber)")
+        print("current = \(currentNumber)")
         
         
     }
@@ -240,7 +240,7 @@ class ViewController: UIViewController {
         
         let operation = sender.currentTitle!
         
-        println(sender.currentTitle!)
+        print(sender.currentTitle!)
         
         if operation != "=" {
             
@@ -298,7 +298,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    println("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
+                    print("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
                     
                     secondNumber = ""
                     currentOperation = ""
@@ -336,7 +336,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    println("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
+                    print("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
                     
 //                    secondNumber = ""
 //                    currentOperation = ""
@@ -370,7 +370,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    println("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
+                    print("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
                     
 //                    secondNumber = ""
 //                    currentOperation = ""
@@ -403,7 +403,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    println("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
+                    print("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
                     
 //                    secondNumber = ""
 //                    currentOperation = ""
@@ -436,7 +436,7 @@ class ViewController: UIViewController {
                         
                     }
                     
-                    println("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
+                    print("\(firstNumber) \(currentOperation) \(secondNumber) = \(val3)")
                     
 //                    secondNumber = ""
 //                    currentOperation = ""
@@ -446,7 +446,7 @@ class ViewController: UIViewController {
                 
             default :
                 
-                println("no case")
+                print("no case")
                 
             }
             
